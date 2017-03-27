@@ -63,7 +63,7 @@ s ago      692MB
 The `docker history` command will show you that the layers we added during the build are only a small part of the resulting image (about 20MB +/-):
 
 ```.term1
-docker history href-counter:sdk |head -n 4
+docker history alexellis2/href-counter:sdk |head -n 4
 ```
 ```
 IMAGE               CREATED             CREATED BY
