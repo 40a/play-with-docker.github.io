@@ -19,8 +19,6 @@ The image that you are going to use is a single-page website that was already cr
 docker container run -d seqvence/static-site
 ```
 
->**Note:** The current version of this image doesn't run without the `-d` flag. The `-d` flag enables **detached mode**, which detaches the running container from the terminal/shell and returns your prompt after the container starts. We are debugging the problem with this image but for now, use `-d` even for this first example.
-
 So, what happens when you run this command?
 
 Since the image doesn't exist on your Docker host, the Docker daemon first fetches it from the registry and then runs it as a container.
