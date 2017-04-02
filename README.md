@@ -1,5 +1,9 @@
 # Docker 4th birthday repo 
 
+## Deprecated
+
+This site has moved to http://training.play-with-docker.com
+
 
 ## Live Site
 
